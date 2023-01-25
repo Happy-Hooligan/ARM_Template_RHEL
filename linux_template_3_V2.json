@@ -57,10 +57,7 @@
         "type": "string",
         "defaultValue": "82gen2",
         "allowedValues": [
-          "82gen2",
-          "14.04.5-LTS",
-          "16.04.0-LTS",
-          "18.04-LTS"
+          "82gen2"
         ],
         "metadata": {
           "description": "The RHEL version for the VM. This will pick a fully patched image of this given RHEL version. Need to change allowed values"
