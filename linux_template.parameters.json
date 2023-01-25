@@ -20,7 +20,7 @@
       "vmSize": {
         "value": "Standard_B2ms",
         "metadata": {
-            "description": "Get-AzVMSize -Location westus2 | where { $_.numberofcores -eq 2 }"
+            "description": "Get-AzVMSize -Location westus | where { $_.numberofcores -eq 2 }"
         }
       },
       "virtualNetworkName": {
