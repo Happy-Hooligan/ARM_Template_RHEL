@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "vmName": {
-        "value": "anseeble"
+        "value": "rhel-Box"
       },
       "authenticationType": {
         "value": "password"
       },  
       "adminUsername": {
-        "value": "cysadmin"
+        "value": "personWhoAdmins"
       },
       "rhelOSVersion": {
         "value": "82gen2",
@@ -24,13 +24,13 @@
         }
       },
       "virtualNetworkName": {
-        "value": "Site-to-site-VPN",
+        "value": "Vnet-Name",
         "metadata": {
             "description": "Get-AzVirtualNetwork | select name,subnets"
         }
       },
       "subnetName": {
-        "value": "VPN-Gateway",
+        "value": "Subnet-Name",
         "metadata": {
             "description": "(get-azVirtualNetwork -Name Automation_Resources-vnet).Subnets.name"
         }
