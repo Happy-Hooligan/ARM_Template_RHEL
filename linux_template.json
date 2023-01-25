@@ -53,7 +53,7 @@
           "82gen2"
         ],
         "metadata": {
-          "description": "The RHEL version for the VM. This will pick a fully patched image of this given RHEL version. Need to change allowed values"
+          "description": "The RHEL version for the VM. This will pick a fully patched image of this given RHEL version."
         }
       },
       "location": {
